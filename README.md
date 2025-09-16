@@ -17,3 +17,6 @@ One can reproduce Fig.3 by executing the cells step by step.
 ## `/unitary_learning`
 
 ## `/barren_plateau`
+The main scripts are `/barren_plateau/barren_plateau_sc2.ipynb` and `/barren_plateau/barren_plateau_cbc2.ipynb`. 
+These codes calculate the variance of the cost function with varying the number of qubits and the depth of the circuit.
+Fig.10 can be plotted in the latter part of `/barren_plateau/barren_plateau_cbc2.ipynb` based on the output files from these two codes.
