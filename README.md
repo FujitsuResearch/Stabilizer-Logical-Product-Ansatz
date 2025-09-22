@@ -29,5 +29,5 @@ These codes calculate the variance of the cost function with varying the number 
 Fig.10 can be plotted in the latter part of `/barren_plateau/barren_plateau_cbc2.ipynb` based on the output files from these two codes.
 
 ## `/SLPA_sample`
-The code in `/commutator` is specifically tailored for the problem addressed in the paper. 
+The codes in `/commutator` are specifically tailored for the problem addressed in the paper. 
 For a more general and flexible implementation of SLPA suitable for various problems, please refer to `sample.ipynb` in this folder.
