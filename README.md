@@ -1,8 +1,28 @@
-# Stabilizer-Logical-Product-Ansatz
+# Stabilizer-Logical-Product-Ansatz (SLPA)
 This repository contains the source codes for the stabilizer-logical product ansatz (SLPA), a novel model for efficient gradient estimation in variational quantum algorithms.
 It has been introduced in the paper titled "Trade-off between Gradient Measurement Efficiency and Expressivity in Deep Quantum Neural Networks."
 
 Links: https://www.nature.com/articles/s41534-025-01036-7, https://arxiv.org/abs/2406.18316
+
+# Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/FujitsuResearch/Stabilizer-Logical-Product-Ansatz.git
+cd Stabilizer-Logical-Product-Ansatz
+```
+
+2. **Install the required packages for Python (tested with v3.10.12)**
+```bash
+# Create an environment
+python -m venv .venv
+
+# Activate the environment
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+
+# Install packages
+pip install -r requirements.txt
+```
 
 # Usage
 This repository is organized into four main folders, each corresponding to specific figures in our paper or providing a general implementation of SLPA. 
